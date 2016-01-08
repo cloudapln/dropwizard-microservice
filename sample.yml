@@ -1,0 +1,13 @@
+server:
+  applicationConnectors:
+    - type: http
+      port: 9090
+      idleTimeout: 30s
+
+  adminConnectors:
+    - type: http
+      port: 9091
+
+
+template: Hello, %s!
+defaultName: Dropwizard
