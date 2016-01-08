@@ -1,5 +1,0 @@
-com/sample/SampleConfiguration.class
-com/sample/api/Saying.class
-com/sample/resource/SampleResource.class
-com/sample/SampleApplication.class
-com/sample/healthcheck/TemplateHealthCheck.class
