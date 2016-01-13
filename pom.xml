@@ -10,6 +10,7 @@
 
     <properties>
         <dropwizard.version>0.9.1</dropwizard.version>
+        <swagger.version>0.7.0</swagger.version>
     </properties>
 
     <repositories>
@@ -40,10 +41,17 @@
     </pluginRepositories>
 
     <dependencies>
+        <!--Dropwizard Frameowrk-->
         <dependency>
             <groupId>io.dropwizard</groupId>
             <artifactId>dropwizard-core</artifactId>
             <version>${dropwizard.version}</version>
+        </dependency>
+        <!--SWAGGER for REST documentation ref https://github.com/federecio/dropwizard-swagger-->
+        <dependency>
+            <groupId>io.federecio</groupId>
+            <artifactId>dropwizard-swagger</artifactId>
+            <version>${swagger.version}</version>
         </dependency>
     </dependencies>
 

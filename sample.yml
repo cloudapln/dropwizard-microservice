@@ -8,6 +8,9 @@ server:
     - type: http
       port: 9091
 
+#<a comma separated string of the packages that contain your @Api annotated resources>
+swagger:
+  resourcePackage: com.sample.resource
 
 template: Hello, %s!
 defaultName: Dropwizard
